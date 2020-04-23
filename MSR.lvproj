@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Air Flow" Type="Folder">
+			<Item Name="Air Loop.vi" Type="VI" URL="../Air Loop.vi"/>
 			<Item Name="AirFlow.vi" Type="VI" URL="../AirFlow.vi"/>
 			<Item Name="AirForceBalance.vi" Type="VI" URL="../AirForceBalance.vi"/>
 			<Item Name="AirFow Characteistics.vi" Type="VI" URL="../AirFow Characteistics.vi"/>
@@ -33,8 +34,10 @@
 		</Item>
 		<Item Name="Heat Transfer" Type="Folder">
 			<Item Name="CDR.vi" Type="VI" URL="../CDR.vi"/>
+			<Item Name="Heat Exchangers.vi" Type="VI" URL="../Heat Exchangers.vi"/>
 			<Item Name="HUR.vi" Type="VI" URL="../HUR.vi"/>
 			<Item Name="LMTD.vi" Type="VI" URL="../LMTD.vi"/>
+			<Item Name="Temperatures.vi" Type="VI" URL="../Temperatures.vi"/>
 		</Item>
 		<Item Name="Material Properties" Type="Folder">
 			<Item Name="Air Density.vi" Type="VI" URL="../Air Density.vi"/>
@@ -68,11 +71,18 @@
 			<Item Name="Total Heat Transfer Area.vi" Type="VI" URL="../Total Heat Transfer Area.vi"/>
 			<Item Name="Tube Areas.vi" Type="VI" URL="../Tube Areas.vi"/>
 		</Item>
+		<Item Name="Plotting" Type="Folder">
+			<Item Name="Build Plot.vi" Type="VI" URL="../Build Plot.vi"/>
+			<Item Name="Plot Counter.vi" Type="VI" URL="../Plot Counter.vi"/>
+		</Item>
 		<Item Name="Primary  Loop" Type="Folder">
 			<Item Name="Core Geometry.vi" Type="VI" URL="../Core Geometry.vi"/>
 			<Item Name="Primary Buoyancy.vi" Type="VI" URL="../Primary Buoyancy.vi"/>
 			<Item Name="Primary Density.vi" Type="VI" URL="../Primary Density.vi"/>
 			<Item Name="Primary Flow Characteristics.vi" Type="VI" URL="../Primary Flow Characteristics.vi"/>
+			<Item Name="Primary Flow.vi" Type="VI" URL="../Primary Flow.vi"/>
+			<Item Name="Primary Loop.vi" Type="VI" URL="../Primary Loop.vi"/>
+			<Item Name="Primary Pressure Balance.vi" Type="VI" URL="../Primary Pressure Balance.vi"/>
 			<Item Name="Primary Velocity.vi" Type="VI" URL="../Primary Velocity.vi"/>
 			<Item Name="Primary Viscosity.vi" Type="VI" URL="../Primary Viscosity.vi"/>
 		</Item>
@@ -81,12 +91,10 @@
 			<Item Name="SecFlow Characteristics.vi" Type="VI" URL="../SecFlow Characteristics.vi"/>
 			<Item Name="Secondary Flow.vi" Type="VI" URL="../Secondary Flow.vi"/>
 			<Item Name="Secondary Force Balance.vi" Type="VI" URL="../Secondary Force Balance.vi"/>
+			<Item Name="Secondary Loop.vi" Type="VI" URL="../Secondary Loop.vi"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="MSR Main.vi" Type="VI" URL="../MSR Main.vi"/>
-		<Item Name="Primary Flow.vi" Type="VI" URL="../Primary Flow.vi"/>
-		<Item Name="Primary Pressure Balance.vi" Type="VI" URL="../Primary Pressure Balance.vi"/>
-		<Item Name="Temperatures.vi" Type="VI" URL="../Temperatures.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
