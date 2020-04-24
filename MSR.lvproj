@@ -95,6 +95,7 @@
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="MSR Main.vi" Type="VI" URL="../MSR Main.vi"/>
+		<Item Name="Plot Control.vi" Type="VI" URL="../Plot Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
