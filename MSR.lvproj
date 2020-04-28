@@ -73,7 +73,14 @@
 		</Item>
 		<Item Name="Plotting" Type="Folder">
 			<Item Name="Build Plot.vi" Type="VI" URL="../Build Plot.vi"/>
+			<Item Name="Plot Control.vi" Type="VI" URL="../Plot Control.vi"/>
 			<Item Name="Plot Counter.vi" Type="VI" URL="../Plot Counter.vi"/>
+		</Item>
+		<Item Name="Power" Type="Folder">
+			<Item Name="Power Change.vi" Type="VI" URL="../Power Change.vi"/>
+			<Item Name="Rod Control.vi" Type="VI" URL="../Rod Control.vi"/>
+			<Item Name="SUR.vi" Type="VI" URL="../SUR.vi"/>
+			<Item Name="Temperature Feedback.vi" Type="VI" URL="../Temperature Feedback.vi"/>
 		</Item>
 		<Item Name="Primary  Loop" Type="Folder">
 			<Item Name="Core Geometry.vi" Type="VI" URL="../Core Geometry.vi"/>
@@ -95,7 +102,6 @@
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="MSR Main.vi" Type="VI" URL="../MSR Main.vi"/>
-		<Item Name="Plot Control.vi" Type="VI" URL="../Plot Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
