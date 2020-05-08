@@ -16,6 +16,9 @@
 			<Item Name="AirForceBalance.vi" Type="VI" URL="../AirForceBalance.vi"/>
 			<Item Name="AirFow Characteistics.vi" Type="VI" URL="../AirFow Characteistics.vi"/>
 		</Item>
+		<Item Name="Comms" Type="Folder">
+			<Item Name="ByteWrite.vi" Type="VI" URL="../ByteWrite.vi"/>
+		</Item>
 		<Item Name="Conversions" Type="Folder">
 			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 			<Item Name="C to K.vi" Type="VI" URL="../C to K.vi"/>
@@ -78,6 +81,7 @@
 		</Item>
 		<Item Name="Power" Type="Folder">
 			<Item Name="Power Change.vi" Type="VI" URL="../Power Change.vi"/>
+			<Item Name="Reactor Power.vi" Type="VI" URL="../Reactor Power.vi"/>
 			<Item Name="Rod Control.vi" Type="VI" URL="../Rod Control.vi"/>
 			<Item Name="SUR.vi" Type="VI" URL="../SUR.vi"/>
 			<Item Name="Temperature Feedback.vi" Type="VI" URL="../Temperature Feedback.vi"/>
@@ -100,9 +104,26 @@
 			<Item Name="Secondary Force Balance.vi" Type="VI" URL="../Secondary Force Balance.vi"/>
 			<Item Name="Secondary Loop.vi" Type="VI" URL="../Secondary Loop.vi"/>
 		</Item>
+		<Item Name="Time" Type="Folder">
+			<Item Name="Enqueue Time.vi" Type="VI" URL="../Enqueue Time.vi"/>
+			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
+		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="MSR Main.vi" Type="VI" URL="../MSR Main.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+			</Item>
+			<Item Name="ByteTransfer.vi" Type="VI" URL="../ByteTransfer.vi"/>
+			<Item Name="ClosePSOC.vi" Type="VI" URL="../../Design of uP Systems/ClosePSOC.vi"/>
+			<Item Name="CreatePacket.vi" Type="VI" URL="../../Design of uP Systems/CreatePacket.vi"/>
+			<Item Name="OpenPSOC.vi" Type="VI" URL="../../Design of uP Systems/OpenPSOC.vi"/>
+			<Item Name="ReadPSOC.vi" Type="VI" URL="../../Design of uP Systems/ReadPSOC.vi"/>
+			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../Design of uP Systems/Serial - Settings.ctl"/>
+			<Item Name="WritePSOC.vi" Type="VI" URL="../../Design of uP Systems/WritePSOC.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
